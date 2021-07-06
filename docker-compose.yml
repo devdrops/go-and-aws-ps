@@ -1,0 +1,12 @@
+version: "3.7"
+
+services:
+    shell:
+        image: golang:1.15-alpine
+        volumes:
+            - .:/code
+        working_dir: /code
+        env_file:
+            - .env
+        command: go run main.go
+
