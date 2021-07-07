@@ -8,5 +8,5 @@ services:
         working_dir: /code
         env_file:
             - .env
-        command: go run main.go
+        command: sh
 
