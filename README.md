@@ -3,6 +3,13 @@
 Código feito para entender como usar o AWS Parameter Store com Go para leitura
 de valores do SSM.
 
+## Exemplos
+
+- [x] DeleteParameter
+- [x] GetParameter
+- [x] GetParameters
+- [x] PutParameter
+
 ## Execução
 
 ### Pré Requisitos
