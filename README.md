@@ -3,6 +3,10 @@
 Código feito para entender como usar o AWS Parameter Store com Go para leitura
 de valores do SSM.
 
+O arquivo `sdk1.go` contém exemplos de uso do SDK `github.com/aws/aws-sdk-go`,
+enquanto o arquivo `sdk2.go` contém exemplos do SDK
+`github.com/aws/aws-sdk-go-v2`.
+
 ## Exemplos
 
 - [x] DeleteParameter
@@ -30,11 +34,11 @@ terminal, a partir da pasta raiz deste repositório:
 docker-compose run --rm shell
 ```
 
-Uma vez executado o comando acima, basta executar o arquivo `main.go` com o
-comando abaixo:
+Uma vez executado o comando acima, basta executar um dos arquivos `sdk1.go` ou
+`sdk2.go` com o comando abaixo:
 
 ```shell
-go run main.go
+go run sdk1.go
 ```
 
 As dependências serão instaladas e a requisição será realizada. Se tudo for
@@ -60,3 +64,5 @@ go: downloading github.com/jmespath/go-jmespath v0.4.0
 
 - https://docs.aws.amazon.com/sdk-for-go/api/
 - https://docs.aws.amazon.com/sdk-for-go/v1/developer-guide/configuring-sdk.html
+- https://aws.github.io/aws-sdk-go-v2/docs/
+
