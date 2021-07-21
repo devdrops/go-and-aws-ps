@@ -21,7 +21,7 @@ func getSSMClient() *ssm.Client {
 	reg = os.Getenv("AWS_REGION")
 	// First we create a new AWS Config reading the credentials from the
 	// environment (check ./.env)
-	cfg, err := config.LoadDefaultConfig(context.TODO(), config.WithRegion(reg))
+	cfg, err := config.LoadDefaultConfig(context.TODO())
 	if err != nil {
 		fmt.Println(err.Error())
 		os.Exit(1)
