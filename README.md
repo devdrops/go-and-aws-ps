@@ -12,6 +12,7 @@ enquanto o arquivo `sdk2.go` contém exemplos do SDK
 - [x] DeleteParameter
 - [x] GetParameter
 - [x] GetParameters
+- [x] GetParametersByPath
 - [x] PutParameter
 
 ## Execução
